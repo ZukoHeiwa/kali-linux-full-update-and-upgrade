@@ -2,43 +2,40 @@
 
 To update and upgrade Kali Linux, you'll need to use the package manager, which is typically APT (Advanced Package Tool). Here are the steps to perform a full update and upgrade:
 
-Open a Terminal:
+1. Open a Terminal:
 You can open a terminal in Kali Linux by pressing Ctrl+Alt+T or searching for "Terminal" in the application menu.
 
-Update the Package List:
+2. Update the Package List:
 Use the following command to update the list of available packages and their versions from the repositories:
 ```
 sudo apt update
 ```
 You'll need to enter your password when prompted. This command fetches the latest package information from the repositories.
 
-Upgrade Installed Packages:
+3. Upgrade Installed Packages:
 After updating the package list, you can upgrade all installed packages to their latest available versions using the following command:
-
 ```
 sudo apt upgrade
 ```
 If you want to upgrade all packages without being prompted to confirm, you can add the -y flag:
-
 ```
 sudo apt upgrade -y
 ```
-Upgrade the Distribution (Optional):
+4. Upgrade the Distribution (Optional):
 To upgrade Kali Linux to the latest version, you can use the following command:
 ```
 sudo apt full-upgrade
 ```
 This command not only upgrades installed packages but also manages configuration changes when necessary. Be cautious when using this command, as it can potentially make significant changes to your system. Always back up important data before performing a distribution upgrade.
 
-Clean Up:
+5. Clean Up:
 After the upgrade is complete, you can remove any unnecessary packages and cleanup the system using the following command:
-
 ```
 sudo apt autoremove
 ```
 This command will remove packages that were installed as dependencies but are no longer required by any installed package.
 
-Clean the Package Cache (Optional):
+6. Clean the Package Cache (Optional):
 You can also clean the local package cache to free up disk space:
 ```
 sudo apt clean
