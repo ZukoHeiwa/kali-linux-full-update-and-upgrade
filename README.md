@@ -47,7 +47,7 @@ That's it! Your Kali Linux system is now updated and upgraded to the latest avai
 # Support and Contact
 If you have questions, encounter issues, or want to get involved in the development, please contact me via:
 - 📫 via Email **zukoheiwabusiness@gmail.com**
-- 📄 via Issues https://github.com/zukoheiwa/project-name/issues 
+- 📄 via Issues https://github.com/zukoheiwa/kali-linux-full-update-and-upgrade/issues 
 
 ## Author
 &#8226; ZukoHeiwa
