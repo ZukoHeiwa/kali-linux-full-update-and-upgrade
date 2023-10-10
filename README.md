@@ -24,7 +24,7 @@ sudo apt upgrade -y
 4. Upgrade the Distribution (Optional):
 To upgrade Kali Linux to the latest version, you can use the following command:
 ```
-sudo apt full-upgrade
+sudo apt full-upgrade -y
 ```
 This command not only upgrades installed packages but also manages configuration changes when necessary. Be cautious when using this command, as it can potentially make significant changes to your system. Always back up important data before performing a distribution upgrade.
 
